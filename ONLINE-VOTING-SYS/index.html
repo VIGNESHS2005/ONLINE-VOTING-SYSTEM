@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>login</title>
+        <link rel="stylesheet" href="style1.css">
+        
+    </head>
+    <body>
+        <div class="hearder_section">
+        <h1>Online Voting System</h1>
+        <hr>
+    </div>
+    <br><br>
+    <center>
+    <div class="board">
+    <div class="body_section">
+    <form action="api/login.php" method="post">
+        <h1>Login</h1>
+        <input type="number" name="mobile" placeholder="Enter Mobile"> <br><br>
+        <input type="password" name="password" placeholder="Enter Password"> <br><br>
+        <select id="dropbox" name="role">
+            <option value="1">Voter</option>
+            <option value="2">group</option>
+        </select> <br><br>
+        <button id="loginbtn" type="submit">Login</button> <br><br>
+        </div>
+        </center>
+        <br>
+        <p> New User?
+        <a href="routes/register.html">Register Here</a>
+        </p> 
+    </div>
+    </form>
+    <br>
+    <footer>
+        <div class="footerBottom"><p>Copyright &copy;2025; Designed by <span class="designer">Vignesh_s</p>
+    </div>
+    </footer>
+    </body>
+    </html>
+        
